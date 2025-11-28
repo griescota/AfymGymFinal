@@ -1,0 +1,6 @@
+[
+    { "nombreEjercicio": "Empujar", "descripcion": "Descripción del ejercicio de empujar..." },
+    { "nombreEjercicio": "Levantarse", "descripcion": "Descripción del ejercicio de levantarse..." },
+    { "nombreEjercicio": "Inclinarse", "descripcion": "Descripción del ejercicio de inclinarse..." },
+    { "nombreEjercicio": "CerrarManos", "descripcion": "Descripción del ejercicio de cerrar manos..." }
+  ]
