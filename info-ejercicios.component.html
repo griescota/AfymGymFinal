@@ -1,0 +1,22 @@
+
+<div class="ejercicio-info">
+  <h2>{{ ejercicioNombre }}</h2>
+  <div class="imagen-container">
+    <img [src]="imagenUrl" alt="Imagen del ejercicio">
+  </div>
+  <p>{{ informacionEjercicio }}</p>
+</div>
+
+<div class="counter-container">
+  <button class="boton-realizado" [disabled]="botonBloqueado" (click)="incrementarContador()">Realizado</button>
+</div>
+
+<div id="botones-container">
+  <button class="volver" (click)="volver()">Volver</button>
+</div>
+
+<!-- Ventana emergente -->
+<div class="ventana-emergente" *ngIf="mostrarVentana">
+  <p>¡Sigue así! ¡Continúa entrenando!</p>
+  <button (click)="cerrarVentana()">Cerrar</button>
+</div>

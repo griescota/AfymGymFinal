@@ -1,0 +1,15 @@
+<header>
+  <h1>Entrenamiento</h1>
+</header>
+
+<div id="botones-container">
+  <ul>
+    @for (ejercicio of ejercicios; track ejercicio; let i = $index) {
+      <li>
+        <button class="boton-ejercicio" (click)="onSelectExercise(ejercicio)">{{ ejercicio.nombre }}</button>
+      </li>
+    }
+  </ul>
+  <div class="spacer"></div> <!-- Espaciador -->
+  <button id="progreso" class="boton-progreso" (click)="goToProgress()">Progreso</button>
+</div>

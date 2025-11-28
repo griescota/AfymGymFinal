@@ -1,0 +1,26 @@
+<header>
+  <h1>Registro de Usuarios</h1>
+</header>
+
+<div id="registro-container">
+  <form [formGroup]="registroForm" (ngSubmit)="onSubmit()">
+    <label for="usuario">Usuario:</label>
+    <input type="text" id="usuario" formControlName="usuario">
+    <div class="error-message" *ngIf="usuarioError">Usuario es requerido</div>
+
+    <label for="nivelEjercicio">Nivel de Ejercicio:</label>
+    <select id="nivelEjercicio" formControlName="nivelEjercicio">
+      <option value="" disabled>Seleccione un nivel de ejercicio</option>
+      <option value="1">Persona con movilidad reducida</option>
+      <option value="2">Persona con problemas de esfuerzo</option>
+      <option value="3">Persona apta para poder realizar cualquier tipo de ejercicio</option>
+    </select>
+    <div class="error-message" *ngIf="nivelEjercicioError">Nivel de Ejercicio es requerido</div>
+
+    <label for="contrasena">Contraseña:</label>
+    <input type="password" id="contrasena" formControlName="contrasena">
+    <div class="error-message" *ngIf="contrasenaError">Contraseña es requerida</div>
+
+    <button type="submit">Registrarse</button>
+  </form>
+</div>
