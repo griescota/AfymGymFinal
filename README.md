@@ -1,8 +1,8 @@
-## AFYMGYM
+# AFYMGYM
 
 AFYMGYM es una aplicación web desarrollada como prototipo que tiene como objetivo facilitar la práctica de ejercicios físicos adaptados para personas con diferentes capacidades, así como ofrecer herramientas a educadores y profesionales para supervisar y guiar el progreso de los usuarios. La app busca promover la inclusión, accesibilidad y motivación en el ámbito de la actividad física, especialmente para personas con movilidad reducida o limitaciones físicas.
 
-## Problema que Soluciona
+# Problema que Soluciona
 
 Muchas personas con discapacidad o limitaciones físicas tienen dificultades para acceder a programas de ejercicio personalizados y seguros. Los educadores y profesionales carecen de herramientas sencillas para monitorear el progreso de cada usuario. AFYMGYM resuelve estos problemas ofreciendo:
 
@@ -14,21 +14,21 @@ Acceso a recursos visuales y descriptivos que facilitan la comprensión de los e
 
 Interfaz accesible y fácil de usar.
 
-## Tecnologías Utilizadas
+# Tecnologías Utilizadas
 
-# Angular: Framework principal para construir la aplicación web interactiva y modular.
+## Angular: Framework principal para construir la aplicación web interactiva y modular.
 
-# HTML5 y CSS: Estructura y estilos responsivos de la interfaz.
+## HTML5 y CSS: Estructura y estilos responsivos de la interfaz.
 
-# TypeScript / JavaScript: Lógica y control de interacción en los formularios y botones.
+## TypeScript / JavaScript: Lógica y control de interacción en los formularios y botones.
 
-# Diseño responsivo: La app se adapta a diferentes tamaños de pantalla (móviles, tablets y escritorio).
+## Diseño responsivo: La app se adapta a diferentes tamaños de pantalla (móviles, tablets y escritorio).
 
-# Accesibilidad web: Uso de etiquetas semánticas y colores contrastantes para facilitar el uso por personas con discapacidades.
+## Accesibilidad web: Uso de etiquetas semánticas y colores contrastantes para facilitar el uso por personas con discapacidades.
 
-## Propósito de la Aplicación
+# Propósito de la Aplicación
 
-# La app está diseñada para:
+## La app está diseñada para:
 
 Usuarios: Permitir que personas con distintas capacidades físicas realicen ejercicios adaptados, sigan su progreso y mantengan motivación.
 
@@ -36,7 +36,7 @@ Educadores / Profesionales: Monitorear el rendimiento de los usuarios, ajustar p
 
 Familias: Visualizar el progreso de los usuarios y apoyar su actividad física.
 
-## Características Clave
+# Características Clave
 
 Registro de usuario: Selección de nivel de ejercicio y datos básicos.
 
@@ -48,7 +48,7 @@ Pantalla de progreso: Visualización de logros y estadísticas del usuario.
 
 Interfaz accesible: Botones grandes, textos legibles y diseño adaptativo para todos los dispositivos.
 
-## Flujo General
+# Flujo General
 
 Inicio: Opciones de “Iniciar Sesión” o “Registro”.
 
